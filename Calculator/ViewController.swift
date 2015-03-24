@@ -41,6 +41,17 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func operate(sender: UIButton){
+        let operation = sender.currentTitle!
+        switch operation {
+//            case "➕":
+//            case "➖":
+//            case "✖️":
+//            case "➗":
+            default: break
+        }
+        
+    }
     
     
 }
